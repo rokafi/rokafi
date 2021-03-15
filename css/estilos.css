@@ -1,24 +1,20 @@
 html,body{
     margin: 0px;
     padding: 0px;
-    background-color: aqua;
-}
-
-#mensaje{
-    text-align: center;
+    background-color: salmon;
 }
 
 nav{
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    background-color: coral;
+    background-color:rgb(145, 87, 163);
 }
 
 #nav-logo a{
     display: flex;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #nav-options{
@@ -38,8 +34,40 @@ nav li{
 }
 
 nav li a{
-    color: black;
+    color: white;
     text-decoration: none;
+}
+
+#mensaje{
+    text-align: center;
+}
+
+#productos{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#productos a{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+}
+
+.producto{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin-right: 50px;
+}
+
+.precio{
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer{
@@ -55,5 +83,5 @@ footer ul{
 }
 
 footer ul li{
-    margin-right: 20px;
+    margin-right: 12px;
 }
